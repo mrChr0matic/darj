@@ -217,7 +217,7 @@ function johann() {
 
     document.getElementById("#reviews1").href = hotels[random_nums[0]][4];
     document.getElementById("#reviews2").href = hotels[random_nums[1]][4];
-    document.getELementById("#reviews3").href = hotels[random_nums[2]][4];
+    document.getElementById("#reviews3").href = hotels[random_nums[2]][4];
 
     
     document.querySelector("#location1").href = hotels[random_nums[0]][6];
