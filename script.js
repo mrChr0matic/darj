@@ -198,7 +198,7 @@ function johann() {
         if (random_nums.includes(temp) == false)
             random_nums[i++] = temp;
     } // potential infinite loop but whatever
-
+    
     document.querySelector("#hotel1").innerHTML = hotels[random_nums[0]][0];
     document.querySelector("#hotel2").innerHTML = hotels[random_nums[1]][0];
     document.querySelector("#hotel3").innerHTML = hotels[random_nums[2]][0];
@@ -215,9 +215,9 @@ function johann() {
     document.querySelector("#rating2").innerHTML = rating.concat(hotels[random_nums[1]][3]);
     document.querySelector("#rating3").innerHTML = rating.concat(hotels[random_nums[2]][3]);
 
-    document.querySelector("#reviews1").href = hotels[random_nums[0]][4];
-    document.querySelector("#reviews2").href = hotels[random_nums[1]][4];
-    document.querySelector("#reviews3").href = hotels[random_nums[2]][4];
+    document.getElementById("#reviews1").href = hotels[random_nums[0]][4];
+    document.getElementById("#reviews2").href = hotels[random_nums[1]][4];
+    document.getELementById("#reviews3").href = hotels[random_nums[2]][4];
 
     
     document.querySelector("#location1").href = hotels[random_nums[0]][6];
