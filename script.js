@@ -215,9 +215,9 @@ function johann() {
     document.querySelector("#rating2").innerHTML = rating.concat(hotels[random_nums[1]][3]);
     document.querySelector("#rating3").innerHTML = rating.concat(hotels[random_nums[2]][3]);
 
-    document.getElementById("#reviews1").href = hotels[random_nums[0]][4];
-    document.getElementById("#reviews2").href = hotels[random_nums[1]][4];
-    document.getElementById("#reviews3").href = hotels[random_nums[2]][4];
+    document.getElementById("reviews1").href = hotels[random_nums[0]][4];
+    document.getElementById("reviews2").href = hotels[random_nums[1]][4];
+    document.getElementById("reviews3").href = hotels[random_nums[2]][4];
 
     
     document.querySelector("#location1").href = hotels[random_nums[0]][6];
